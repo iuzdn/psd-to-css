@@ -21,3 +21,11 @@ nav button {
     font-size: medium;
     font-weight: normal;
 }
+
+.grid-container {
+    display: inline-grid;
+}
+
+.grid-item {
+
+}
