@@ -8,8 +8,13 @@ body {
 }
 
 nav {
+    color: #2c3e50;
     display: flex;
     justify-content: space-between;
+}
+
+#logo span {
+    color: #1dd2af;
 }
 
 nav ul li {
@@ -18,12 +23,34 @@ nav ul li {
 
 nav button {
     color: #5d6e80;
+    font-weight: 700;
     font-size: medium;
-    font-weight: normal;
+    border: 0;
+    background: transparent;
+}
+
+.banner {
+    background-image: url("img/bridge.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .grid-container {
-    display: inline-grid;
+    display: grid;
+
 }
 
 .grid-item {
