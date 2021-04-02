@@ -14,7 +14,7 @@ nav button:hover {
     color: #2c3e50;
 }
 
-.main-container {
+.max-width-container {
     max-width: 1200px;
     margin:auto;
 }
@@ -65,8 +65,8 @@ nav button {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background-color: rgba(93,110,128,0.6);
 }
 .flex-center {
@@ -129,11 +129,130 @@ nav button {
     margin-right: 5px;
     right: 0;
 }
+/*-----------------------------Find Container Styling-----------------*/
+
+.find-container {
+    background-color: #5d6a78;
+    color: #9fb0c0;
+    border-top: 1px solid #2c3e50;
+
+}
+
+.find-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5, h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h5 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.find-inner button {
+    color: #fff;
+    background-color: #1dd2af;
+    border-style: solid;
+    border-width: 0;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.search-left-side {
+    padding-right: 2rem;
+    border-right: 1px solid #2c3e50;
+    position: relative;
+}
+
+.search-left-side::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2c3e50;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: #5d6a78;
+    position: absolute;
+    right: -6px;
+    top: 45%;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+
+.search-right-side {
+    padding-left: 2rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-right-side input {
+    color: #5d6e80;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    padding-left: 10px;
+
+}
+
+.input-wrapper {
+    background-color: white;
+    margin: 0 1.5rem;
+    line-height: 2.5rem;
+    height: 2.5rem;
+    flex-grow: 1;
+    position: relative;
+    border: 2px groove #2c3e50;
+}
+
+.destination:after {
+    right: 15px;
+    position: absolute;
+    font-family: 'FontAwesome', serif;
+    content: "\f57c";
+}
+
+.date:after {
+    right: 15px;
+    position: absolute;
+    font-family: 'FontAwesome', serif;
+    content: "\f073";
+}
+
+.search-right-side label {
+    font-size: 1.2rem;
+}
 
 /*------------------------------Footer Styling-----------------------*/
+.footer {
+    background-color: #2c3e50;
+}
+
 .grid-container {
     display: grid;
-
 }
 
 .grid-item {
