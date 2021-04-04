@@ -164,7 +164,7 @@ h6 {
     font-size: 1.2em;
 }
 
-.find-inner button {
+.accent-btn {
     color: #fff;
     background-color: #1dd2af;
     border-style: solid;
@@ -215,14 +215,13 @@ h6 {
     right: 0;
     border: 0;
     padding-left: 10px;
-
 }
 
 .input-wrapper {
+    line-height: 2.2rem;
     background-color: white;
     margin: 0 1.5rem;
-    line-height: 2.5rem;
-    height: 2.5rem;
+    height: 2.2rem;
     flex-grow: 1;
     position: relative;
     border: 2px groove #2c3e50;
@@ -251,10 +250,96 @@ h6 {
     background-color: #2c3e50;
 }
 
-.grid-container {
-    display: grid;
+.footer-container {
+    padding-top: 2rem;
+    color: white;
 }
 
-.grid-item {
+.flex-container {
+    display: flex;
+}
 
+.flex-item {
+    flex: 1;
+    padding-right: 2.5rem;
+}
+
+h3 {
+    color: #1dd2af;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+.footer input {
+    line-height: 2.2rem;
+    background-color: white;
+    height: 1.5rem;
+    border: 2px groove #2c3e50;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    color: #5d6e80;
+}
+
+.footer .accent-btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.8rem;
+    margin-left: 5px;
+}
+
+.news-story {
+    justify-content: space-between;
+}
+
+.story-img {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.box-shadow {
+    border: 1px solid white;
+    box-shadow: 0 0 3px white;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.story-content {
+    padding-left: 20px;
+    display: block;
+    flex-grow: 1;
+}
+
+.story-content p {
+    margin-top: 0;
+    color: #1dd2af;
+}
+
+.tags button {
+    color: white;
+    padding: 5px 8px;
+    background: transparent;
+    border: 1px solid white;
+    box-shadow: 0 0 2px white;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.address span {
+    color: #1dd2af;
+}
+
+.social-icons i {
+    margin-right: 30px;
 }
